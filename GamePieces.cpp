@@ -237,7 +237,7 @@ void Card::trophyHunter() {
 
 void Card::leveler()
 {
-	cout << "Trophy Hunter card: " << endl;
+	cout << "Leveler card: " << endl;
 	cout << effect << endl;
 	Message::victoryPointsBefore();
 	cout << _subject->getVictoryPoints() << endl;
@@ -290,7 +290,7 @@ void Card::personalSpotlight()
 
 void Card::shadowDouble()
 {
-	cout << "Personal Spotlight card: " << endl;
+	cout << "Shadow Double card: " << endl;
 	cout << effect << endl;
 }
 
